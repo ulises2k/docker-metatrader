@@ -142,8 +142,16 @@ https://mobaxterm.mobatek.net/
 * MetaTrader is now installed into /tmp/mt/.wine/drive_c/Program Files/MetaTrader 5/
 * you can now save this directory and run your dockerized MetaTrader from there:
 ```shell
-# cp -r /tmp/mt/.wine/drive_c/Program Files/MetaTrader 5/ $HOME/MetaTrader
-...
+# cp -r /tmp/mt/.wine/drive_c/Program Files/RoboForex - MetaTrader 5/ $HOME/MetaTrader
+```
+#HOST
+
+```shell
+# wget https://github.com/ulises2k/docker-metatrader/blob/master/CommunityPower%202.46.ex5?raw=true -O "CommunityPower 2.46.ex5"
+# docker cp "CommunityPower 2.46.ex5" bold_albattani:"/home/wine/.wine/drive_c/Program Files/RoboForex - MetaTrader 5/MQL5/Experts/"
+```
+
+```shell
 # docker run \
         --net host \
         -v /tmp/.X11-unix:/tmp/.X11-unix \
