@@ -131,6 +131,9 @@ CONTAINER ID   IMAGE                         COMMAND     CREATED         STATUS 
 ```shell
 # wine /home/wine/mt5setup.exe
 ```
+![image](https://user-images.githubusercontent.com/2415609/166131048-e3bf1092-d218-43b2-b8f6-42320aa75c59.png)
+
+
 * MetaTrader is now installed into /tmp/mt/.wine/drive_c/Program Files/MetaTrader 5/
 * you can now save this directory and run your dockerized MetaTrader from there:
 ```shell
