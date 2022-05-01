@@ -41,6 +41,20 @@ This issue can be solved as follow:
 ```
 * let wine automatically install the missing packages.
 * stop the container without any further actions (by closing MetaTrader).
+
+# docker images
+docker image tag 7e0725b023da docker-metatrader/mt:latest
+REPOSITORY               TAG       IMAGE ID       CREATED          SIZE
+<none>                   <none>    7e0725b023da   17 minutes ago   2.14GB
+
+# docker image tag 7e0725b023da docker-metatrader/mt:latest
+
+# docker images
+REPOSITORY               TAG       IMAGE ID       CREATED          SIZE
+docker-metatrader/mt     latest    7e0725b023da   19 minutes ago   2.14GB
+
+
+
 * commit the changes to a new image, e.g.:
 ```shell
 # docker commit cc349c658225 mt
