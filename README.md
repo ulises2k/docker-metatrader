@@ -151,6 +151,14 @@ https://mobaxterm.mobatek.net/
 # docker cp "CommunityPower 2.46.ex5" bold_albattani:"/home/wine/.wine/drive_c/Program Files/RoboForex - MetaTrader 5/MQL5/Experts/"
 ```
 
+# Docker Run Metatrader 5
+```shell
+# cd ".wine/drive_c/Program Files/RoboForex - MetaTrader 5"
+# wine metaeditor64.exe --portable
+```
+
+
+
 ```shell
 # docker run \
         --net host \
