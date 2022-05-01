@@ -103,6 +103,19 @@ The process for this is as follows:
 # mkdir /tmp/mt
 ```
 * download the metatrader installer (mt4setup.exe or mt5setup.exe) from [MetaQuotes](https://www.metaquotes.net/) and place it in /tmp/mt.
+
+```shell
+# docker ps -a
+CONTAINER ID   IMAGE                         COMMAND     CREATED         STATUS         PORTS     NAMES
+29543f6c67dd   docker-metatrader/mt:latest   "/bin/sh"   2 minutes ago   Up 2 minutes             bold_albattani
+```
+
+
+
+```shell
+# docker cp /mnt/c/temp/MetaTrader-MT5/roboforex5setup_build_3260.exe bold_albattani:/home/wine/
+```
+
 * start the container with the install directory mounted to /home/wine and bash as entry point:
 ```shell
 # docker run \
