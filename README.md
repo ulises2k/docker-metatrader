@@ -154,7 +154,7 @@ https://mobaxterm.mobatek.net/
 # Docker Run Metatrader 5
 ```shell
 # cd ".wine/drive_c/Program Files/RoboForex - MetaTrader 5"
-# wine metaeditor64.exe --portable
+# wine terminal64.exe --portable
 ```
 
 
