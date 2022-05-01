@@ -127,6 +127,11 @@ CONTAINER ID   IMAGE                         COMMAND     CREATED         STATUS 
         --entrypoint=/bin/sh \
         docker-metatrader/mt:latest
 ```
+* install Mobaxterm:
+https://mobaxterm.mobatek.net/
+
+**Execute the next comand in MobaXterm**
+
 * install MetaTrader:
 ```shell
 # wine /home/wine/mt5setup.exe
