@@ -87,7 +87,7 @@ EXAMPLES
         -e DISPLAY \
         -v $METATRADER_HOST_PATH:/MetaTrader \
         --name mt \
-        tickelton/mt
+        docker-metatrader/mt:latest
 ```
 
 MetaTrader installation using a container
@@ -112,7 +112,7 @@ The process for this is as follows:
         -e DISPLAY \
         -v /tmp/mt:/home/wine \
         --entrypoint=/bin/sh \
-        tickelton/mt
+        docker-metatrader/mt:latest
 ```
 * install MetaTrader:
 ```shell
@@ -129,6 +129,6 @@ The process for this is as follows:
         -e DISPLAY \
         -v $HOME/MetaTrader:/MetaTrader \
         --name mt \
-        tickelton/mt
+        docker-metatrader/mt:latest
 ```
 
